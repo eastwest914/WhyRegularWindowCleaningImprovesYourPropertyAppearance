@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Why Regular Window Cleaning Improves Your Property’s Appearance</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Calibri,sans-serif;color:#1e293b;background:#f8fafc}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+:root{--b1:#2768F5;--b2:#27A3F5;--dk:#1a55e0;--grad:linear-gradient(135deg,#2768F5,#27A3F5)}
+
+header{background:#fff;box-shadow:0 2px 16px rgba(39,104,245,.13);position:sticky;top:0;z-index:100}
+.hi{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.hph{display:flex;align-items:center;gap:6px;color:var(--b1);font-weight:700;font-size:15px;white-space:nowrap}
+nav{display:flex;align-items:center;gap:4px}
+nav a{padding:8px 13px;border-radius:8px;font-size:15px;color:#334155;font-weight:600;transition:background .2s,color .2s}
+nav a:hover,nav a.active{background:#e8eeff;color:var(--dk)}
+.hr2{display:flex;align-items:center;gap:12px}
+.lw{display:flex;align-items:center;gap:8px}
+.li{width:38px;height:38px;background:var(--grad);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.ln{font-size:12px;font-weight:700;color:#1e293b;line-height:1.2;max-width:130px}
+.bbk{background:var(--grad);color:#fff;padding:9px 18px;border-radius:24px;font-size:14px;font-weight:700;border:none;cursor:pointer;transition:opacity .2s;white-space:nowrap}
+.bbk:hover{opacity:.88}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px}
+.hbg span{width:24px;height:2px;background:#1e293b;border-radius:2px}
+
+.page{display:none}.page.active{display:block}
+
+/* HERO — text only, no image, centered */
+.hero{background:var(--grad);color:#fff;padding:100px 20px 90px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(255,255,255,.09) 0%,transparent 60%)}
+.hero-inner{position:relative;max-width:820px;margin:0 auto}
+.hero-inner h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.2;margin-bottom:18px}
+.hero-inner p{font-size:clamp(1rem,2.5vw,1.18rem);opacity:.94;max-width:640px;margin:0 auto 32px;line-height:1.75}
+.hbtns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.bp{background:#fff;color:var(--dk);padding:14px 30px;border-radius:30px;font-size:15px;font-weight:700;transition:transform .2s;display:inline-block}
+.bp:hover{transform:translateY(-2px)}
+.bo{border:2px solid #fff;color:#fff;padding:13px 28px;border-radius:30px;font-size:15px;font-weight:700;display:inline-block;transition:background .2s}
+.bo:hover{background:rgba(255,255,255,.15)}
+.tbar{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-top:50px;padding-top:40px;border-top:1px solid rgba(255,255,255,.25)}
+.ti{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
+.ti strong{font-size:1.6rem;font-weight:800}
+.ti span{font-size:.83rem;opacity:.88}
+
+section{padding:72px 20px}
+.si{max-width:1200px;margin:0 auto}
+.stag{display:inline-block;background:#e8eeff;color:var(--dk);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:4px 12px;border-radius:20px;margin-bottom:12px}
+.stitle{font-size:clamp(1.5rem,3.5vw,2.3rem);font-weight:800;color:#1e293b;margin-bottom:12px}
+.ssub{font-size:1.02rem;color:#64748b;max-width:600px}
+
+.ig{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;margin-top:44px}
+.iimg{border-radius:20px;overflow:hidden;box-shadow:0 16px 48px rgba(39,104,245,.18)}
+.iimg img{width:100%;height:380px;object-fit:cover}
+.it p{font-size:1rem;line-height:1.8;color:#475569;margin-bottom:14px}
+.fl{list-style:none;margin-top:18px;display:flex;flex-direction:column;gap:9px}
+.fl li{display:flex;align-items:center;gap:10px;font-size:.97rem;color:#334155}
+.ck{width:20px;height:20px;background:var(--grad);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin-top:44px}
+.pc{background:#fff;border-radius:18px;box-shadow:0 4px 20px rgba(39,104,245,.09);overflow:hidden;transition:transform .25s,box-shadow .25s}
+.pc:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(39,104,245,.18)}
+.pc img{width:100%;height:210px;object-fit:cover}
+.pb{padding:20px}
+.pb h3{font-size:1.07rem;font-weight:700;color:#1e293b;margin-bottom:8px}
+.pb p{font-size:.91rem;line-height:1.65;color:#475569;margin-bottom:14px}
+.bsm{display:inline-block;background:var(--grad);color:#fff;padding:9px 20px;border-radius:20px;font-size:.86rem;font-weight:700;border:none;cursor:pointer;transition:opacity .2s}
+.bsm:hover{opacity:.85}
+
+.sb{background:#fff;border-radius:20px;box-shadow:0 4px 24px rgba(39,104,245,.08);overflow:hidden;margin-bottom:32px;display:grid;grid-template-columns:1fr 1fr}
+.sb img{width:100%;height:320px;object-fit:cover}
+.sbd{padding:36px;display:flex;flex-direction:column;justify-content:center}
+.sbd h2{font-size:1.4rem;font-weight:800;color:#1e293b;margin:10px 0 14px}
+.sbd p{font-size:.95rem;line-height:1.8;color:#475569;margin-bottom:20px}
+
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start;margin-top:44px}
+.aimg{border-radius:20px;overflow:hidden;box-shadow:0 16px 48px rgba(39,104,245,.15)}
+.aimg img{width:100%;height:420px;object-fit:cover}
+.at p{font-size:1rem;line-height:1.85;color:#475569;margin-bottom:16px}
+.vg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.vc{background:#f8fafc;border-radius:14px;padding:16px;border:1px solid #e0e8ff}
+.vc h4{font-size:.96rem;font-weight:700;color:#1e293b;margin-bottom:5px;display:flex;align-items:center;gap:7px}
+.vc p{font-size:.87rem;color:#64748b;line-height:1.6}
+
+/* Related searches strip */
+.rs{background:#f0f4ff;border-top:1px solid #dce6ff;padding:22px 20px}
+.rs-inner{max-width:1200px;margin:0 auto}
+.rs-inner p{font-size:.82rem;color:#64748b;line-height:1.9}
+.rs-inner a{color:var(--b1);font-weight:600;transition:color .2s}
+.rs-inner a:hover{color:var(--dk)}
+
+.fql{max-width:740px;margin:36px auto 0;display:flex;flex-direction:column;gap:12px}
+.fqi{border:1px solid #dce6ff;border-radius:14px;overflow:hidden}
+.fqq{padding:17px 20px;font-weight:700;font-size:.97rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:#fff;user-select:none}
+.fqq:hover{background:#f0f4ff}
+.fqa{padding:0 20px;max-height:0;overflow:hidden;transition:max-height .35s,padding .35s}
+.fqa.open{max-height:220px;padding:0 20px 16px}
+.fqa p{font-size:.94rem;line-height:1.75;color:#475569}
+.fqar{transition:transform .3s;flex-shrink:0}
+.fqar.open{transform:rotate(180deg)}
+
+.cng{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:44px}
+.cfc{background:#fff;border-radius:20px;box-shadow:0 4px 24px rgba(39,104,245,.09);padding:32px}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-size:.87rem;font-weight:700;color:#374151;margin-bottom:5px}
+.fg input,.fg select,.fg textarea{width:100%;padding:11px 13px;border:1.5px solid #e2e8f0;border-radius:10px;font-family:inherit;font-size:.94rem;color:#1e293b;outline:none;transition:border .2s}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--b1)}
+.fg textarea{resize:vertical;min-height:100px}
+.bsu{width:100%;background:var(--grad);color:#fff;border:none;padding:13px;border-radius:12px;font-size:1rem;font-weight:700;cursor:pointer;font-family:inherit;transition:opacity .2s}
+.bsu:hover{opacity:.88}
+.ii{display:flex;gap:13px;align-items:flex-start;margin-bottom:20px}
+.ico{width:42px;height:42px;background:#e8eeff;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ii p{font-size:.92rem;color:#475569;line-height:1.6}
+.ii strong{display:block;color:#1e293b;font-size:.96rem;margin-bottom:2px}
+
+footer{background:#0a1a40;color:#cbd5e1;padding:52px 20px 26px}
+.fg2{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:36px}
+.fb p{font-size:.9rem;line-height:1.7;color:#94a3b8;max-width:270px;margin-top:10px}
+.flo{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.fli{width:34px;height:34px;background:var(--grad);border-radius:8px;display:flex;align-items:center;justify-content:center}
+.fln{font-size:13px;font-weight:700;color:#fff}
+.fc h4{font-size:.92rem;font-weight:700;color:#fff;margin-bottom:14px}
+.fc ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.fc ul li a{font-size:.87rem;color:#94a3b8;transition:color .2s}
+.fc ul li a:hover{color:var(--b2)}
+.fci{display:flex;align-items:flex-start;gap:7px;margin-bottom:10px;font-size:.87rem;color:#94a3b8}
+.fbt{max-width:1200px;margin:36px auto 0;padding-top:22px;border-top:1px solid #1e293b;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:.82rem;color:#64748b}
+
+.fcall{position:fixed;bottom:26px;right:26px;z-index:200;background:var(--grad);color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(39,104,245,.5);animation:pulse 2.5s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 6px 24px rgba(39,104,245,.5)}50%{box-shadow:0 6px 36px rgba(39,163,245,.65)}}
+
+@media(max-width:900px){.ig,.ag,.cng{grid-template-columns:1fr}.sb{grid-template-columns:1fr}.sb img{height:240px}.fg2{grid-template-columns:1fr 1fr}.vg{grid-template-columns:1fr}}
+@media(max-width:680px){.hbg{display:flex}nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.1)}nav.open{display:flex}nav a{padding:11px 14px;border-radius:10px}.hph span{display:none}.ln{display:none}.bbk{padding:8px 13px;font-size:13px}.fg2{grid-template-columns:1fr}.tbar{gap:18px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hi">
+    <a class="hph" href="tel:+15619807008">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      <span>561-980-7008</span>
+    </a>
+    <nav id="mainNav">
+      <a href="#" class="nav-link active" onclick="sp('home',this);return false;">Home</a>
+      <a href="#" class="nav-link" onclick="sp('about',this);return false;">About</a>
+      <a href="#" class="nav-link" onclick="sp('services',this);return false;">Services</a>
+      <a href="#" class="nav-link" onclick="sp('contact',this);return false;">Contact</a>
+    </nav>
+    <div class="hr2">
+      <div class="lw">
+        <div class="li"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <span class="ln">Window Tinting Boca Raton</span>
+      </div>
+      <button class="bbk" onclick="sp('contact',null)">Free Quote</button>
+      <div class="hbg" onclick="tn()"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<!-- HOME -->
+<div id="home" class="page active">
+
+  <!-- HERO: text only, centered, no image -->
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>Boca Raton's #1 Window Tinting &amp; Solar Film Services</h1>
+      <p>High-quality solar-shield window films for residential and commercial buildings in Boca Raton &amp; all of Palm Beach County. Save energy, gain privacy and protect your interiors — installed fast with zero disruption.</p>
+      <div class="hbtns">
+        <a class="bp" href="tel:+15619807008">Call 561-980-7008</a>
+        <a class="bo" href="#" onclick="sp('services',null);return false;">Our Services</a>
+      </div>
+      <div class="tbar">
+        <div class="ti"><strong>99%</strong><span>UV Blocked</span></div>
+        <div class="ti"><strong>100%</strong><span>Satisfaction</span></div>
+        <div class="ti"><strong>5-Star</strong><span>Rated</span></div>
+        <div class="ti"><strong>Lic. &amp; Ins.</strong><span>Pros</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section style="background:#fff">
+    <div class="si">
+      <div style="text-align:center">
+        <span class="stag">Why Choose Us</span>
+        <h2 class="stitle">Boca Raton's Top Window Tinting Company</h2>
+        <p class="ssub" style="margin:0 auto">Window Tinting Boca Raton provides high-quality solar-shield window films for commercial and residential buildings. Installed quickly by top-rated technicians — saving you money from day one without affecting your view.</p>
+      </div>
+      <div class="ig">
+        <div class="iimg">
+          <img src="https://windowcleaningfl.net/wp-content/uploads/2025/07/best-reflective-window-film-1-992x525.jpg" alt="Window tinting Boca Raton Florida solar film"/>
+        </div>
+        <div class="it">
+          <p>Welcome to Window Tinting Boca Raton! We provide high-quality solar-shield window films for commercial and residential buildings throughout Boca Raton and Palm Beach County. Our solar window film is installed quickly by our top-rated technicians, minimizing any disruptions to your routine.</p>
+          <p>It saves you money immediately — and you'll be surprised at how your view remains completely unaffected. One-way mirrors help to add privacy to any office, store or business location, and Window Tinting Boca Raton is experienced at installing them. Call us today!</p>
+          <ul class="fl">
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Protects you from prying eyes during the day</li>
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Reduces solar heat gain &amp; lowers energy bills</li>
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Improves visibility by reducing glare</li>
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Scratch &amp; breakage protection for windows</li>
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Blocks up to 99% of harmful UV rays</li>
+            <li><div class="ck"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Enhances aesthetic appeal of any property</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#f8fafc">
+    <div class="si">
+      <div style="text-align:center">
+        <span class="stag">Our Services</span>
+        <h2 class="stitle">Complete Window Tinting Services</h2>
+        <p class="ssub" style="margin:0 auto">From solar film and privacy tinting to one-way mirrors and safety film — we handle every window tinting need in Boca Raton and throughout Florida.</p>
+      </div>
+      <div class="cg">
+        <div class="pc">
+          <img src="https://windowcleaningfl.net/wp-content/uploads/2025/01/mom-spending-time-with-her-kid-1536x1024.jpg" alt="Residential window tinting Boca Raton FL"/>
+          <div class="pb">
+            <h3>Residential Window Tinting</h3>
+            <p>Solar-shield window film for your home that blocks UV rays, reduces heat and protects furniture from fading — while keeping your view crystal clear.</p>
+            <button class="bsm" onclick="sp('services',null)">Learn More</button>
+          </div>
+        </div>
+        <div class="pc">
+          <img src="https://windowcleaningfl.net/wp-content/uploads/2025/09/stone-film-2.jpg" alt="Commercial window tinting Boca Raton"/>
+          <div class="pb">
+            <h3>Commercial Window Tinting</h3>
+            <p>Professional window film for offices, storefronts and commercial buildings. Reduce glare, lower HVAC costs and improve privacy for staff and customers.</p>
+            <button class="bsm" onclick="sp('services',null)">Learn More</button>
+          </div>
+        </div>
+        <div class="pc">
+          <img src="https://windowcleaningfl.net/wp-content/uploads/2025/06/stone-film-4.png" alt="One-way mirror privacy film Boca Raton"/>
+          <div class="pb">
+            <h3>One-Way Mirror &amp; Privacy Film</h3>
+            <p>Add daytime privacy to any office, store or home with professionally installed one-way mirror film. See out clearly while keeping the inside private.</p>
+            <button class="bsm" onclick="sp('services',null)">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:32px">
+        <button style="background:var(--grad);color:#fff;border:none;cursor:pointer;padding:14px 30px;border-radius:30px;font-size:15px;font-weight:700" onclick="sp('services',null)">See All Services</button>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--grad);padding:60px 20px;text-align:center">
+    <div class="si">
+      <h2 style="font-size:clamp(1.5rem,3.5vw,2.3rem);font-weight:800;color:#fff;margin-bottom:14px">Ready to Tint Your Windows in Boca Raton?</h2>
+      <p style="color:rgba(255,255,255,.93);font-size:1.03rem;max-width:540px;margin:0 auto 28px">Call us today or fill out our contact form for a free quote. Serving Boca Raton, Palm Beach County and all of Florida — Mon–Fri 9am–9pm, Sat 11am–9pm.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a class="bp" href="tel:+15619807008">Call 561-980-7008</a>
+        <a class="bo" href="#" onclick="sp('contact',null);return false;">Get Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Searches -->
+  <div class="rs">
+    <div class="rs-inner">
+      <p><strong style="color:#1e293b">Related Searches: </strong>
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">window tinting boca raton</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">window tinting</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">window tinting near me</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">best window tinting</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">best window tinting near me</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">affordable window tinting</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">affordable window tinting near me</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">house window tinting</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">best windows tinting boca raton</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">residential window tinting</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">window tinting service</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">best window tinting service</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">affordable window tinting service</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">window tinting service near me</a> |
+        <a href="http://windowcleaningfl.net" target="_blank" rel="noopener">Palm Beach County</a> |
+        <a href="https://www.google.com/maps?cid=10916879241402906824" target="_blank" rel="noopener">FL</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="page">
+  <div style="background:var(--grad);padding:60px 20px 52px;text-align:center">
+    <span class="stag" style="background:rgba(255,255,255,.2);color:#fff">About Us</span>
+    <h1 style="color:#fff;font-size:clamp(1.7rem,4vw,2.7rem);font-weight:800;margin-top:10px">About Window Tinting Boca Raton</h1>
+    <p style="color:rgba(255,255,255,.92);font-size:1.03rem;max-width:560px;margin:12px auto 0">Boca Raton's premier residential and commercial window tinting and solar film installation provider</p>
+  </div>
+  <section style="background:#f1f5f9">
+    <div class="si">
+      <div class="ag">
+        <div>
+          <span class="stag">Our Story</span>
+          <h2 class="stitle">Built for Florida's Window Tinting Needs</h2>
+          <div class="at">
+            <p>Welcome to Window Tinting Boca Raton! We provide high-quality solar-shield window films for commercial and residential buildings throughout Florida. Solar window film can be installed quickly by our top-rated window technicians, minimizing any disruptions to your routine. It saves you money immediately — and you'll be surprised at how your view remains completely unaffected.</p>
+            <p>One-way mirrors help to add privacy to any office, store or business location, and Window Tinting Boca Raton is experienced at installing them. Additionally, the coating can be applied to glass surfaces in your home, including windows. We serve residential homeowners, commercial property managers and businesses throughout Boca Raton, Palm Beach County and all of Florida.</p>
+            <p>Based at 1401 S Federal Hwy in Boca Raton, our team brings the expertise, professionalism and top-quality film products to exceed your expectations on every installation. Call Window Tinting Boca Raton in Florida today!</p>
+          </div>
+          <div class="vg">
+            <div class="vc"><h4><svg width="17" height="17" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Licensed &amp; Insured</h4><p>Fully licensed and insured for complete peace of mind on every installation.</p></div>
+            <div class="vc"><h4><svg width="17" height="17" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Flexible Hours</h4><p>Mon–Fri 9am–9pm and Saturday 11am–9pm to fit your schedule.</p></div>
+            <div class="vc"><h4><svg width="17" height="17" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>All of Florida</h4><p>We serve residential and commercial clients throughout Florida.</p></div>
+            <div class="vc"><h4><svg width="17" height="17" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>Expert Team</h4><p>Boca Raton–based technicians with deep window film expertise.</p></div>
+          </div>
+        </div>
+        <div>
+          <div class="aimg">
+            <img src="https://windowcleaningfl.net/wp-content/uploads/2021/07/safety.jpg" alt="Window tinting professionals Boca Raton Florida"/>
+          </div>
+          <div style="background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 20px rgba(39,104,245,.09);margin-top:22px">
+            <h3 style="font-weight:700;color:#1e293b;margin-bottom:12px">Our Service Philosophy</h3>
+            <p style="font-size:.95rem;line-height:1.75;color:#475569">We treat every installation like it is our own. Our technicians arrive on time, work cleanly and deliver a flawless, bubble-free film finish every single time. Solar window film saves you money immediately — and you'll be surprised at how your view remains completely unaffected. We are not satisfied until you are — and that commitment keeps our clients referring us across Florida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff;padding:72px 20px">
+    <div class="si" style="text-align:center">
+      <span class="stag">FAQ</span>
+      <h2 class="stitle">Frequently Asked Questions</h2>
+      <p class="ssub" style="margin:0 auto">Common questions about our window tinting services in Boca Raton and throughout Florida.</p>
+    </div>
+    <div class="fql">
+      <div class="fqi"><div class="fqq" onclick="tf(this)">What is solar window film and how does it benefit me?<svg class="fqar" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--b1)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div><div class="fqa"><p>Solar window film is a thin professional coating applied to your glass that blocks up to 99% of UV rays, reduces solar heat gain and cuts glare — all while keeping your view clear. It saves you money immediately on air conditioning costs and protects your furniture, flooring and artwork from fading caused by sun exposure.</p></div></div>
+      <div class="fqi"><div class="fqq" onclick="tf(this)">Will window tinting affect my view or natural light?<svg class="fqar" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--b1)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div><div class="fqa"><p>No — you'll be surprised at how your view remains completely unaffected! Modern solar films are designed to be nearly invisible while still providing maximum UV and heat protection. We offer a range of tint levels so you can choose exactly how much privacy and solar protection you want.</p></div></div>
+      <div class="fqi"><div class="fqq" onclick="tf(this)">Do you install one-way mirror film for offices and homes?<svg class="fqar" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--b1)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div><div class="fqa"><p>Yes! One-way mirror film is one of our specialties. It allows you to see out clearly during the day while preventing outsiders from seeing in — perfect for offices, retail stores, business locations and residential windows facing busy streets. The coating can also be applied to glass surfaces throughout your home.</p></div></div>
+      <div class="fqi"><div class="fqq" onclick="tf(this)">What areas do you serve?<svg class="fqar" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--b1)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div><div class="fqa"><p>We are based in Boca Raton at 1401 S Federal Hwy and serve all of Palm Beach County including Delray Beach, Boynton Beach, West Palm Beach and surrounding areas. We also serve clients throughout all of Florida. Contact us to confirm availability in your area.</p></div></div>
+      <div class="fqi"><div class="fqq" onclick="tf(this)">What are your business hours and do you offer free quotes?<svg class="fqar" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--b1)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></div><div class="fqa"><p>We are open Monday through Friday from 9:00 AM to 9:00 PM and Saturday from 11:00 AM to 9:00 PM. Yes — we offer free, no-obligation quotes for all window tinting services. Call us at 561-980-7008 or fill out our contact form to request your free quote today.</p></div></div>
+    </div>
+  </section>
+</div>
+
+<!-- SERVICES -->
+<div id="services" class="page">
+  <div style="background:var(--grad);padding:60px 20px 52px;text-align:center">
+    <span class="stag" style="background:rgba(255,255,255,.2);color:#fff">Our Services</span>
+    <h1 style="color:#fff;font-size:clamp(1.7rem,4vw,2.7rem);font-weight:800;margin-top:10px">Window Tinting Services in Boca Raton, FL</h1>
+    <p style="color:rgba(255,255,255,.92);font-size:1.03rem;max-width:560px;margin:12px auto 0">Comprehensive window film and tinting solutions for residential and commercial properties throughout Palm Beach County and all of Florida</p>
+  </div>
+  <section style="background:#f8fafc;padding:72px 20px">
+    <div class="si">
+
+      <div class="sb">
+        <img src="https://windowcleaningfl.net/wp-content/uploads/2025/01/mom-spending-time-with-her-kid-1536x1024.jpg" alt="Residential window tinting Boca Raton FL"/>
+        <div class="sbd">
+          <span class="stag">Service 01</span>
+          <h2>Residential Window Tinting</h2>
+          <p>Florida's sun is intense — and your home deserves protection. Our residential window tinting service installs high-quality solar-shield film that blocks up to 99% of UV rays, reduces indoor temperatures and protects your furniture, flooring and artwork from fading. You'll save money immediately on air conditioning costs while enjoying a more comfortable, private home. All film is professionally installed for a flawless, bubble-free finish without affecting your view.</p>
+          <button class="bsm" style="align-self:flex-start" onclick="sp('contact',null)">Get a Free Quote</button>
+        </div>
+      </div>
+
+      <div class="sb">
+        <div class="sbd">
+          <span class="stag">Service 02</span>
+          <h2>Commercial Window Tinting</h2>
+          <p>Make your office, storefront or commercial building more energy-efficient and comfortable with professional window film. Our commercial tinting reduces solar heat gain, cuts glare on screens and lowers HVAC costs significantly. We work around your business schedule to minimize disruption and complete installations quickly. From single-story retail spaces to multi-floor office buildings, we have the experience for any commercial tinting project in Boca Raton and throughout Florida.</p>
+          <button class="bsm" style="align-self:flex-start" onclick="sp('contact',null)">Get a Free Quote</button>
+        </div>
+        <img src="https://windowcleaningfl.net/wp-content/uploads/2025/09/stone-film-2.jpg" alt="Commercial window tinting Boca Raton Florida"/>
+      </div>
+
+      <div class="sb">
+        <img src="https://windowcleaningfl.net/wp-content/uploads/2025/07/best-reflective-window-film-1-992x525.jpg" alt="One-way mirror privacy film Boca Raton"/>
+        <div class="sbd">
+          <span class="stag">Service 03</span>
+          <h2>One-Way Mirror &amp; Privacy Film</h2>
+          <p>One-way mirror film helps to add privacy to any office, store or business location — and Window Tinting Boca Raton is experienced at installing them. The coating can also be applied to glass surfaces in your home, including windows. You see out clearly during the day while preventing outsiders from looking in. Perfect for ground-floor offices, conference rooms, retail storefronts and residential windows. We'll help you choose the right film for your privacy and aesthetic needs.</p>
+          <button class="bsm" style="align-self:flex-start" onclick="sp('contact',null)">Get a Free Quote</button>
+        </div>
+      </div>
+
+      <div class="sb">
+        <div class="sbd">
+          <span class="stag">Service 04</span>
+          <h2>Decorative &amp; Specialty Window Film</h2>
+          <p>Beyond solar protection, we offer a full range of decorative window films including frosted, etched, patterned and custom-print options. Use decorative film to add style to any glass surface — office partitions, shower doors, storefront glass, entry doors and more. Our specialty films are a cost-effective alternative to etched or frosted glass, with endless design possibilities and professional installation that looks stunning from both sides.</p>
+          <button class="bsm" style="align-self:flex-start" onclick="sp('contact',null)">Get a Free Quote</button>
+        </div>
+        <img src="https://windowcleaningfl.net/wp-content/uploads/2025/06/stone-film-4.png" alt="Decorative window film Boca Raton Florida"/>
+      </div>
+
+      <div class="sb">
+        <img src="https://windowcleaningfl.net/wp-content/uploads/2025/06/stone-film-7.jpg" alt="Safety security window film Boca Raton"/>
+        <div class="sbd">
+          <span class="stag">Service 05</span>
+          <h2>Safety &amp; Security Window Film</h2>
+          <p>Our safety window film provides scratch and breakage protection for your windows — one of the key benefits our clients value most. In the event of impact, the film holds shattered glass together, reducing injury risk and providing critical extra protection during Florida storms, break-in attempts or accidents. Safety film is a smart, affordable upgrade that could make a real difference when it matters most for both homes and businesses in Boca Raton.</p>
+          <button class="bsm" style="align-self:flex-start" onclick="sp('contact',null)">Get a Free Quote</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="page">
+  <div style="background:var(--grad);padding:60px 20px 52px;text-align:center">
+    <span class="stag" style="background:rgba(255,255,255,.2);color:#fff">Get in Touch</span>
+    <h1 style="color:#fff;font-size:clamp(1.7rem,4vw,2.7rem);font-weight:800;margin-top:10px">Contact Window Tinting Boca Raton</h1>
+    <p style="color:rgba(255,255,255,.92);font-size:1.03rem;max-width:560px;margin:12px auto 0">Call us, visit our Boca Raton location or fill out the form for a free quote on any window tinting service.</p>
+  </div>
+  <section style="background:#f8fafc;padding:72px 20px">
+    <div class="si">
+      <div class="cng">
+        <div class="cfc">
+          <h2 style="font-size:1.32rem;font-weight:800;color:#1e293b;margin-bottom:22px">Request a Free Quote</h2>
+          <div class="fg"><label>Full Name</label><input type="text" placeholder="Your full name"/></div>
+          <div class="fg"><label>Phone Number</label><input type="tel" placeholder="Your phone number"/></div>
+          <div class="fg"><label>Email Address</label><input type="email" placeholder="Your email address"/></div>
+          <div class="fg"><label>Service Needed</label><select><option value="">Select a service</option><option>Residential Window Tinting</option><option>Commercial Window Tinting</option><option>One-Way Mirror / Privacy Film</option><option>Decorative / Specialty Film</option><option>Safety &amp; Security Film</option><option>Other / Not Sure</option></select></div>
+          <div class="fg"><label>Property Type</label><select><option value="">Select property type</option><option>Residential / Home</option><option>Commercial / Office</option><option>Retail / Storefront</option><option>Other</option></select></div>
+          <div class="fg"><label>Message</label><textarea placeholder="Tell us about your project — number of windows, property location in Boca Raton or Florida, type of film you're interested in, or any other details..."></textarea></div>
+          <button class="bsu" onclick="hs(this)">Send My Request</button>
+        </div>
+        <div>
+          <h3 style="font-size:1.22rem;font-weight:700;color:#1e293b;margin-bottom:18px">Contact Information</h3>
+          <div class="ii"><div class="ico"><svg width="19" height="19" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div><div><strong>Phone</strong><p><a href="tel:+15619807008" style="color:var(--b1)">561-980-7008</a></p></div></div>
+          <div class="ii"><div class="ico"><svg width="19" height="19" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><strong>Address</strong><p>1401 S Federal Hwy #3244<br/>Boca Raton, FL 33432</p></div></div>
+          <div class="ii"><div class="ico"><svg width="19" height="19" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><strong>Website</strong><p><a href="http://windowcleaningfl.net" target="_blank" rel="noopener" style="color:var(--b1)">windowcleaningfl.net</a></p></div></div>
+          <div class="ii"><div class="ico"><svg width="19" height="19" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><strong>Hours</strong><p>Mon–Fri: 9:00 AM – 9:00 PM<br/>Saturday: 11:00 AM – 9:00 PM</p></div></div>
+          <div class="ii"><div class="ico"><svg width="19" height="19" fill="none" stroke="var(--b1)" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><strong>Service Area</strong><p>Boca Raton, Palm Beach County<br/>&amp; all of Florida</p></div></div>
+          <div style="margin-top:6px;border-radius:14px;overflow:hidden;box-shadow:0 4px 20px rgba(39,104,245,.1)">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.9!2d-80.0790!3d26.3683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e0!2s1401+S+Federal+Hwy%2C+Boca+Raton%2C+FL+33432!5e0!3m2!1sen!2sus!4v1" width="100%" height="260" style="border:0;display:block" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div style="margin-top:14px">
+            <a href="https://www.google.com/maps?cid=10248248056868991947" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--grad);color:#fff;padding:11px 22px;border-radius:24px;font-weight:700;font-size:.93rem">
+              <svg width="16" height="16" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              View on Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="fg2">
+    <div class="fb">
+      <div class="flo">
+        <div class="fli"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <span class="fln">Window Tinting Boca Raton</span>
+      </div>
+      <p>Boca Raton's premier residential and commercial window tinting and solar film installation company. Serving Boca Raton, Palm Beach County and all of Florida.</p>
+    </div>
+    <div class="fc">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#" onclick="sp('home',null);return false;">Home</a></li>
+        <li><a href="#" onclick="sp('about',null);return false;">About Us</a></li>
+        <li><a href="#" onclick="sp('services',null);return false;">Services</a></li>
+        <li><a href="#" onclick="sp('contact',null);return false;">Contact</a></li>
+        <li><a href="http://windowcleaningfl.net" target="_blank" rel="noopener">windowcleaningfl.net</a></li>
+      </ul>
+    </div>
+    <div class="fc">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#" onclick="sp('services',null);return false;">Residential Window Tinting</a></li>
+        <li><a href="#" onclick="sp('services',null);return false;">Commercial Window Tinting</a></li>
+        <li><a href="#" onclick="sp('services',null);return false;">One-Way Mirror Film</a></li>
+        <li><a href="#" onclick="sp('services',null);return false;">Decorative Film</a></li>
+        <li><a href="#" onclick="sp('services',null);return false;">Safety &amp; Security Film</a></li>
+      </ul>
+    </div>
+    <div class="fc">
+      <h4>Contact Us</h4>
+      <div class="fci"><svg width="15" height="15" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>1401 S Federal Hwy #3244<br/>Boca Raton, FL 33432</span></div>
+      <div class="fci"><svg width="15" height="15" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+15619807008" style="color:#94a3b8">561-980-7008</a></div>
+      <div class="fci"><svg width="15" height="15" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon–Fri: 9am–9pm<br/>Sat: 11am–9pm</span></div>
+      <div class="fci"><svg width="15" height="15" fill="none" stroke="var(--b2)" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="http://windowcleaningfl.net" style="color:#94a3b8">windowcleaningfl.net</a></div>
+    </div>
+  </div>
+  <div class="fbt">
+    <span>© 2025 Window Tinting Boca Raton. All rights reserved.</span>
+    <span>Window Tinting | Boca Raton, FL | Palm Beach County</span>
+  </div>
+</footer>
+
+<a class="fcall" href="tel:+15619807008" aria-label="Call Window Tinting Boca Raton">
+  <svg width="25" height="25" fill="none" stroke="#fff" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+</a>
+
+<script>
+function sp(id,lnk){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('.nav-link').forEach(a=>a.classList.remove('active'));
+  if(lnk){lnk.classList.add('active');}
+  else{document.querySelectorAll('.nav-link').forEach(a=>{if(a.getAttribute('onclick')&&a.getAttribute('onclick').includes("'"+id+"'"))a.classList.add('active');});}
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(document.getElementById('mainNav').classList.contains('open'))tn();
+}
+function tn(){document.getElementById('mainNav').classList.toggle('open');}
+function tf(el){
+  const a=el.nextElementSibling,ar=el.querySelector('.fqar'),o=a.classList.contains('open');
+  document.querySelectorAll('.fqa').forEach(x=>x.classList.remove('open'));
+  document.querySelectorAll('.fqar').forEach(x=>x.classList.remove('open'));
+  if(!o){a.classList.add('open');ar.classList.add('open');}
+}
+function hs(btn){btn.textContent='Request Sent! We will be in touch soon.';btn.style.background='var(--dk)';btn.disabled=true;}
+const s=document.createElement('style');
+s.textContent='@media(max-width:700px){.sb{grid-template-columns:1fr!important}.sb img{height:220px!important}}';
+document.head.appendChild(s);
+</script>
+</body>
+</html>
